@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{16626032-598a-4714-8b7b-569c3f4176a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{43bd860b-5228-47a7-9b36-84e0ed2b3729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{8353600e-e769-44be-a806-29a419c1723c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="roblox">
+      <UniqueIdentifier>{e6d140e0-f0b7-4994-9f56-8c57663e78ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="roblox\bypass">
+      <UniqueIdentifier>{fd1be125-38aa-45e5-ac71-31a1ea2242b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="smh">
+      <UniqueIdentifier>{62a9e2db-99fa-4f53-9e42-bd054793945b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory\internal">
+      <UniqueIdentifier>{aeb68fdd-6af9-4f08-878d-eac5a285e6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="roblox\shuffles">
+      <UniqueIdentifier>{239effbc-0930-44fc-b933-9d69e64b7349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{347a6328-6f34-477c-a126-28f8a83a51b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="roblox\lua">
+      <UniqueIdentifier>{82fa8d6d-b7db-4376-bde0-66ec3fc8b222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="roblox\lua\compiler">
+      <UniqueIdentifier>{2a2905e8-75a4-469a-8888-51842b212d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="roblox\lua\mini_api">
+      <UniqueIdentifier>{d3e2f5ea-2b35-4fc2-99ab-b97b2e50e5d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="roblox\obfuscations">
+      <UniqueIdentifier>{7824b8d1-3426-498f-b5b6-73901afc1236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="roblox\scheduler">
+      <UniqueIdentifier>{b479525f-e018-42ae-b071-5dd750d76bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="security">
+      <UniqueIdentifier>{357b39cd-7af1-4bba-8132-11e7fe6816b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="security\themida">
+      <UniqueIdentifier>{f7e69ddb-e326-4bac-8dcd-ef3b205dccc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="security\obfuscation">
+      <UniqueIdentifier>{aac67ab7-1664-4b0e-93a8-cf3e21b0fd45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch\pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\bypass\console.cpp">
+      <Filter>roblox\bypass</Filter>
+    </ClCompile>
+    <ClCompile Include="smh\cout.cpp">
+      <Filter>smh</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\rebase.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\scanner.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\pattern.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\internal\process.cpp">
+      <Filter>memory\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\internal\segment.cpp">
+      <Filter>memory\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="util\offset_cache.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\lua\mini_api\objects.cpp">
+      <Filter>roblox\lua\mini_api</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\shuffles\shuffles.cpp">
+      <Filter>roblox\shuffles</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\obfuscations\bruteforce.cpp">
+      <Filter>roblox\obfuscations</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\obfuscations\deobfuscate.cpp">
+      <Filter>roblox\obfuscations</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\obfuscations\obfuscate.cpp">
+      <Filter>roblox\obfuscations</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\lua\mini_api\api.cpp">
+      <Filter>roblox\lua\mini_api</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\lua\compiler\Ast.cpp">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\lua\compiler\Builtins.cpp">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\lua\compiler\BytecodeBuilder.cpp">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\lua\compiler\Compilerator.cpp">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\lua\compiler\Confusables.cpp">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\lua\compiler\ConstantFolding.cpp">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\lua\compiler\Lexer.cpp">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\lua\compiler\Location.cpp">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\lua\compiler\Parser.cpp">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\lua\compiler\StringUtils.cpp">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\lua\compiler\TableShape.cpp">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\lua\compiler\TimeTrace.cpp">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\lua\compiler\ValueTracking.cpp">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="roblox\scheduler\scheduler.cpp">
+      <Filter>roblox\scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="security\spoof.cpp">
+      <Filter>security</Filter>
+    </ClCompile>
+    <ClCompile Include="util\capstone_engine.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch\pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\bypass\console.hpp">
+      <Filter>roblox\bypass</Filter>
+    </ClInclude>
+    <ClInclude Include="smh\cout.hpp">
+      <Filter>smh</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\rebase.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\scanner.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\pattern.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\internal\process.hpp">
+      <Filter>memory\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\internal\segment.hpp">
+      <Filter>memory\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="util\offset_cache.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\lua\mini_api\objects.hpp">
+      <Filter>roblox\lua\mini_api</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\shuffles\structs.hpp">
+      <Filter>roblox\shuffles</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\shuffles\shuffles.hpp">
+      <Filter>roblox\shuffles</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\obfuscations\bruteforce.hpp">
+      <Filter>roblox\obfuscations</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\obfuscations\deobfuscate.hpp">
+      <Filter>roblox\obfuscations</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\obfuscations\obfuscate.hpp">
+      <Filter>roblox\obfuscations</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\obfuscations\util.hpp">
+      <Filter>roblox\obfuscations</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\lua\mini_api\api.hpp">
+      <Filter>roblox\lua\mini_api</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\lua\compiler\Ast.h">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\lua\compiler\Builtins.h">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\lua\compiler\Bytecode.h">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\lua\compiler\BytecodeBuilder.h">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\lua\compiler\Common.h">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\lua\compiler\Compilerator.h">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\lua\compiler\Confusables.h">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\lua\compiler\ConstantFolding.h">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\lua\compiler\DenseHash.h">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\lua\compiler\Lexer.h">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\lua\compiler\Location.h">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\lua\compiler\ParseOptions.h">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\lua\compiler\Parser.h">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\lua\compiler\StringUtils.h">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\lua\compiler\TableShape.h">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\lua\compiler\TimeTrace.h">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\lua\compiler\ValueTracking.h">
+      <Filter>roblox\lua\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\scheduler\scheduler.hpp">
+      <Filter>roblox\scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="roblox\scheduler\singleton.hpp">
+      <Filter>roblox\scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="security\xor.hpp">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="security\themida\SecureEngineCustomVMs.h">
+      <Filter>security\themida</Filter>
+    </ClInclude>
+    <ClInclude Include="security\themida\SecureEngineCustomVMs_BorlandC_inline.h">
+      <Filter>security\themida</Filter>
+    </ClInclude>
+    <ClInclude Include="security\themida\SecureEngineCustomVMs_GNU_inline.h">
+      <Filter>security\themida</Filter>
+    </ClInclude>
+    <ClInclude Include="security\themida\SecureEngineCustomVMs_ICL_inline.h">
+      <Filter>security\themida</Filter>
+    </ClInclude>
+    <ClInclude Include="security\themida\SecureEngineCustomVMs_LCC_inline.h">
+      <Filter>security\themida</Filter>
+    </ClInclude>
+    <ClInclude Include="security\themida\SecureEngineCustomVMs_VC_inline.h">
+      <Filter>security\themida</Filter>
+    </ClInclude>
+    <ClInclude Include="security\themida\ThemidaSDK.h">
+      <Filter>security\themida</Filter>
+    </ClInclude>
+    <ClInclude Include="security\spoof.hpp">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="util\capstone_engine.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
