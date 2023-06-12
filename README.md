@@ -1,7 +1,7 @@
 # An offset dumper for the ROBLOX game engine.
 Originally built for SirMeme Hub, a discontinued group project.
 
-A fully fledged offset dumper which fully automates the dumping of every Lua offset automatically.
+A fully fledged offset dumper which fully automates the dumping of every Lua struct automatically.
 
 Last tested on `version-cdc9cb5aa0dc4432`, Does **NOT** work on 64-bit builds.
 
