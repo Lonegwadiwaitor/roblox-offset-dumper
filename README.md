@@ -8,7 +8,7 @@ Last tested on `version-cdc9cb5aa0dc4432`, Does **NOT** work on 64-bit builds.
 **For education purposes only, I do not condone the usage of such tools to build, update, or use cheat software.**
 
 # Capabilities:
-**Automatically finding vital exploit-related functions & values - mainly `gettaskscheduler`, `luac_step`, `luau_load`, `f_call`, and `n_xor (tvalue number XOR key)`**
+**Automatically finding vital exploit-related functions & values - mainly `gettaskscheduler`, `luac_step`, `luau_load`, `f_call`, and `n_xor (tvalue "n" XOR key)`**
 
 **Bruteforcing of ROBLOX's "`pointer obfuscation`", which can be done in nanoseconds with ease.**
 
